@@ -1,0 +1,103 @@
+*{
+    font-family: "Nunito", sans-serif;
+}
+p{
+    color:rgb(65, 72, 51);
+}
+header{
+    background-color: rgb(96, 108, 56);
+}
+#icono-inicio{
+    color:rgb(244, 243, 238);
+}
+#nombre{
+    color: rgb(244, 243, 238);
+}
+
+.nav-item a{
+    color: rgb(239, 229, 220);
+}
+#boton-perfil{
+    background-color: rgb(212, 163, 115);
+    color:rgb(254, 250, 224);
+}
+.nav-item a:hover{
+    color: rgb(203, 153, 126);
+}
+#app{
+    color: rgb(212, 163, 115);
+}
+#boton-cv{
+    background-color: rgb(203, 153, 126);
+    color: white;
+}
+#boton-cv:hover{
+    color: rgb(255, 241, 230);
+}
+.caja-habilidades{
+    background-color: rgb(237, 237, 233);
+}
+.feature-icon{
+    color:rgb(203, 153, 126);
+}
+h2{
+    color: rgb(101, 109, 74);
+}
+h3{
+    color:rgb(203, 153, 126);
+}
+#caja-testimonio{
+    background-color: rgb(237, 237, 233);
+}
+.btn-project1{
+    background-color: rgb(212, 163, 115);
+}
+.btn-project1 a{
+    text-decoration: none;
+    color:rgb(254, 250, 224);
+}
+.btn-project1:hover{
+    background-color: rgb(221, 190, 169);
+}
+
+.btn-project2{
+    background-color: rgb(221, 190, 169);
+}
+.btn-project2 a{
+    text-decoration: none;
+    color:rgb(254, 250, 224);
+}
+.btn-project2:hover{
+    background-color: rgb(212, 163, 115);
+}
+/* Para los títulos de las tarjetas */
+.card .card-title{
+    color: rgb(188, 108, 37);
+}
+#icono-contacto{
+    color: rgb(203, 153, 126);
+}
+
+#contacto{
+    background-color: rgb(96, 108, 56);
+    color: rgb(244, 243, 238);
+}
+#contacto p{
+    color: rgb(244, 243, 238);
+}
+
+#escribeme{
+    background-color: rgb(212, 163, 115);
+}
+#escribeme:hover{
+    background-color: rgb(254, 250, 224);
+}
+footer ul li a i{
+    color: rgb(101, 109, 74);
+}
+footer span{
+    color: rgb(101, 109, 74);
+}
+footer span a{
+    color: rgb(188, 108, 37);
+}

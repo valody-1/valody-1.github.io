@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- iconos de Boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/code-square.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <title>Valeria Cardós</title>
+</head>
+
+<body>
+    <!-- Los container pueden acomodar cosas de forma más sencilla -->
+
+    <!-- En bootstrap, grid puedo hacer la división por columnas copiando el código. En boostrap hay 12 columnas en las cuales se divide el contenido -->
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <i id="icono-inicio" class="bi bi-code px-2 fs-2"></i>
+            <span id="nombre" class="fs-4">Valeria Odette Cardós Echeverría</span>
+        </a>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a id="boton-perfil" href="#perfil" class="nav-link active" aria-current="page">Perfil</a></li>
+            <li class="nav-item"><a href="#hanging-icons-habilidades" class="nav-link">Habilidades</a></li>
+            <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+            <li class="nav-item"><a href="#testimonios" class="nav-link">Testimonios</a></li>
+            <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+    </header>
+    <main>
+        <!-- hero de perfil -->
+        <div id="perfil" class="hero">
+            <div class="px-4 py-5 my-5 text-center">
+                <img class="d-block mx-auto mb-4 rounded-circle" src="assets/Foto.png" alt="" width="180px">
+                <h1 class="display-5 fw-bold text-body-emphasis">Valeria Odette Cardós Echeverría</h1>
+                <!-- Texto de typewriter JS trabaja con id (#)-->
+                <h2 id="app"></h2>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">Estudiante de desarrolladora frontend, y estudiante de agroecología en la UADY.
+                        Me destaco por mi capacidad para aprender de forma continua, gestionar mis tiempos y procesos en
+                        mis proyectos, asegurando así la ejecución eficiente. Me motiva seguir creciendo
+                        profesionalmente, adquirir nuevas habilidades y conocimientos, y ser mejor persona cada día</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <button type="button" id="boton-cv" class="btn btn-outline-secondary btn-lg px-4">Link a mi CV</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Habilidades -->
+        <div class="caja-habilidades">
+        <div class="habilidades container px-4 py-5" id="hanging-icons-habilidades">
+            <h2 class="pb-2 border-bottom">Habilidades</h1>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="feature col">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-1 mb-3">
+                        <i class="bi bi-laptop px-1"></i>
+                    </div>
+                    <h3 class="fs-3">Desarollo web</h3>
+                    <p>Ha creado sitios web aplicando conocimientos que adquirí en el bootcamp de Tecnolochicas PRO.</p>
+                </div>
+                <div class="feature col">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-1 mb-3">
+                        <i class="bi bi-journals px-1"></i>
+                    </div>
+                    <h3 class="fs-3 ">Learnability</h3>
+                    <p>Amor por el aprendizaje. Tengo la capacidad de dominar nuevas habilidades, materias y
+                        conocimientos después de reflexionar sobre lo que me falta conocer.</p>
+                    </a>
+                </div>
+                <!-- Inicio de habilidad -->
+                <div class="feature col">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-1 mb-3">
+                        <i class="bi bi-building-fill-up px-1"></i>
+                    </div>
+                    <h3 class="fs-3">Emprendedora</h3>
+                    <p>Tengo los conocimientos y herramientas para desarrollar emprendimientos hasta la fase de
+                        establecimiento. Y la capacidad para levarlos a cabo</p>
+                </div>
+                <!-- Fin de habilidad -->
+            </div>
+        </div>
+        </div>
+
+        <!-- Proyectos-->
+        <div id="proyectos" class="proyectos container mt-5 pb-5">
+            <h2 class="pb-2 border-bottom">Proyectos</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="bd-placeholder-img" src="assets/miprimersitioweb.png" alt="clon de pinterest">
+                        <div class="card-body">
+                            <p class="card-text">Mi primer sitio web</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary btn-project1"><a target="_blank"
+                                            href="https://mi-primer-sitio-web-beige.vercel.app/">Ver</a></button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary btn-project2"><a target="_blank"
+                                            href="https://github.com/valody-1/Mi-primer-sitio-web">Git</a></button>
+                                </div>
+                                <small class="text-body-secondary">HTML, CSS</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="bd-placeholder-img" src="assets/clon-de-pinterest.png" alt="clon de pinterest">
+                        <div class="card-body">
+                            <p class="card-text">Clon de pinterest</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary btn-project1"><a target="_blank"
+                                            href="https://pinterest-clon-liard.vercel.app/">Ver</a></button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary btn-project2"><a target="_blank"
+                                            href="https://github.com/valody-1/pinterest-clon">Git</a></button>
+                                </div>
+                                <small class="text-body-secondary">HTML, CSS</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="bd-placeholder-img" src="assets/clon-de-google.png" alt="clon de google">
+                        <div class="card-body">
+                            <p class="card-text">Clon de Google</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary btn-project1"><a target="_blank"
+                                            href="https://valody-1.github.io/clon-de-google.github.io/">Ver</a></button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary btn-project2"><a target="_blank"
+                                            href="https://github.com/valody-1/clon-de-google.github.io">Git</a></button>
+                                </div>
+                                <small class="text-body-secondary">HTML, CSS</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carrusel de proyectos-->
+         <!-- es necesario agregar "container"; mt: margin top -->
+        <div id="caja-testimonio" class="pb-5 pt-2">
+         <div id="testimonios" class="testimonios container mt-5">
+            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+            <h2 class="pb-2 border-bottom">Testimonios</h2>
+                <div class="carousel-inner">
+                <!-- Solo uno de los items del carrusel lleva "active"-->
+                    <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                    <!-- Inicio de card -->
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/Rayo Ponce.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Rayo Ponce</h5>
+                              <h6 class="card-subtitle mb-2 text-body-secondary text-center">Compañera del Bootcamp Tecnolochicas PRO</h6>
+                              <p class="card-text">Como compañera de Valeria durante el Bootcamp de Techonolochicas Pro, considero que es una persona dedicada y atenta que busca mejorar sus habilidades como desarrolladora Frontend. Seguramente, debido a su desempeño, se convertirá en una profesional exitosa.</p>
+                            </div>
+                          </div>
+                        <!-- Final de card -->
+                    </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/Anel.jpg" class="card-img-top" alt="Anel">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Anel Montes</h5>
+                              <h6 class="card-subtitle mb-2 text-body-secondary text-center">Mentora del Bootcamp Tecnolochicas PRO</h6>
+                              <p class="card-text">Valeria muestra un rápido progreso en la adquisición de habilidades técnicas clave y una gran disposición para colaborar en proyectos. Su actitud positiva y su voluntad de aprender constantemente son cualidades valiosas en el campo de la programación. No tengo dudas de que Fabiola seguirá creciendo y haciendo contribuciones significativas como desarrolladora frontend en el futuro.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/Mariana.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Mariana De Jesús</h5>
+                              <h6 class="card-subtitle mb-2 text-body-secondary text-center">Compañera de trabajo</h6>
+                              <p class="card-text">Como compañera de Valeria, puedo decir que es una persona muy dedicada que tiene habilidades de emprendimiento, programación y la motivación para seguir aprendiendo</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/Fabiola.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Fabiola Caballero</h5>
+                              <h6 class="card-subtitle mb-2 text-body-secondary text-center">Compañera del Bootcamp Tecnolochicas PRO</h6>
+                              <p class="card-text">Tuve la gran oportunidad de compartir con Valeria en el bootcamp de Technolochicas Pro. Sin duda alguna, demostró ser una excelente desarrolladora front-end, con una notable facilidad de aprendizaje y destacando por sus magníficos diseños. Fue un placer conocerle, y espero seguir de cerca sus futuras creaciones. El futuro que le espera es asombroso.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        </div>
+
+        <!-- Para los contactos -->
+        <div id="contacto" class="pt-4 pb-5 text-center">
+              <i id="icono-contacto" class="d-block mx-auto mb-4 fs-1 bi bi-envelope-plus-fill"></i>
+              <h1 class="display-5 fw-bold">Contacto</h1>
+              <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">
+                Contáctame para iniciar un proyecto de desarrollo web en tu nuevo emprendimiento.
+              </p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <!-- Agregar un link al botón, directo para que me envíen un correo -->
+              <a href="mailto:valeokr2e@gmail.com?cc=valkr2e3@gmail.com&subject=Quiero%20trabajar%20contigo&body=Hola%20me%20interesa%20crear%20un%20proyecto%20contigo" target="_top">
+              <button id="escribeme" type="button" class="btn btn-primary btn-lg px-4 gap-3">
+                Escríbeme
+              </button>
+              </a>
+            </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+        <div class="col-md-6 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          </a>
+          <span class="px-2">© 2024 Creado por Valeria Cardós en el Bootcamp de: <a href="https://tecnolochicas.mx/">Tecnolochicas PRO</a></span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="px-2"><a class="text-body-secondary fs-2" href="linkedin.com/in/valeria-cardós-echeverría-a4648a341"><i class="bi bi-linkedin"></i></a></li>
+          <li class="px-2"><a class="text-body-secondary fs-2" href="https://github.com/valody-1"><i class="bi bi-github"></i></a></li>
+          <li class="px-2"><a class="text-body-secondary fs-2" href="https://discord.gg/GVxYxdct"><i class="bi bi-discord"></i></svg></a></li>
+        </ul>
+      </footer>
+
+    <!-- Este link siempre va al final, antes del cierre de body -->
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!--CDN typewriterJS-->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <!-- main JS, el que cree para el typewriter. Se pone al final porque lee de arriba para abajo y es necesario que se lea el typewriter primero-->
+    <script src="main.js"></script>
+</body>
+
+</html>
